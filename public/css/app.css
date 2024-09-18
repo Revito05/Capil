@@ -1,0 +1,100 @@
+/* public/css/app.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff; /* White background for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 48px; /* Logo height */
+    margin-right: 10px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #333; /* Dark gray text */
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #4caf50; /* Green color on hover */
+}
+
+.navbar-buttons a {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.login-btn {
+    color: #4caf50; /* Green text for login */
+}
+
+.signup-btn {
+    background-color: #4caf50; /* Green background for signup */
+    color: #ffffff; /* White text */
+}
+
+.signup-btn:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.text-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.text-content p {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    color: #666; /* Lighter gray for description */
+}
+
+.image-content {
+    flex: 1;
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
